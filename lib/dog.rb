@@ -7,6 +7,8 @@ def initialize(name)
   @@all << self
 end
 
-def all? { |e|  }
+def all
+  @@all
+end
 
 end
